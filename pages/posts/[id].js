@@ -7,7 +7,7 @@ export default function Post({ post }) {
     return <div>Loading...</div>;
   }
   return (
-    <Layout title="post.title">
+    <Layout title={post.title}>
       <p className="m-4">
         {"ID : "}
         {post.id}
